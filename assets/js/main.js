@@ -82,6 +82,7 @@
     gpu: '<rect x="2.5" y="6" width="17" height="11" rx="1.5"/><circle cx="8" cy="11.5" r="2.8"/><circle cx="14.5" cy="11.5" r="2.8"/><path d="M19.5 9h2v5h-2M5 17v2.5h3V17"/>',
     server: '<rect x="3" y="3.5" width="18" height="7" rx="1.5"/><rect x="3" y="13.5" width="18" height="7" rx="1.5"/><path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"/>',
     cloud: '<path d="M7 18.5a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 10a4.25 4.25 0 0 1-.25 8.5z"/>',
+    scholar: '<path d="M12 3 2 9l10 6 10-6z"/><path d="M12 15v0"/><circle cx="12" cy="16.5" r="4"/>',
     aitext: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6"/><path d="M14 3v5h5v3"/><path d="M8 12h5M8 16h3"/><path d="m18 14 .9 2.1L21 17l-2.1.9L18 20l-.9-2.1L15 17l2.1-.9z"/>',
     motion: '<path d="M2 6.5 13.5 4l1.5 6L3.5 12.5z"/><path d="m8 11.3.9 3.7H5.5"/><path d="M5.5 13v4"/><path d="M18 6.5a5 5 0 0 1 0 5"/><path d="M20.5 4.5a8.5 8.5 0 0 1 0 9"/><circle cx="6.5" cy="8.2" r=".6" fill="currentColor"/>'
   };
@@ -509,7 +510,10 @@
       '<div class="person__photo' + (p.photo ? " tint" : "") + '">' + photo + badge + "</div>" +
       '<div class="person__body">' +
         '<div><div class="person__head"><h3 class="person__name">' + esc(p.name) + "</h3>" +
-          (p.linkedin ? '<a class="person__in"' + ext(p.linkedin) + ' aria-label="' + esc(p.name) + ' on LinkedIn">' + icon("linkedin") + "</a>" : "") +
+          ((p.linkedin || p.scholar) ? '<div class="person__links">' +
+            (p.scholar ? '<a class="person__in"' + ext(p.scholar) + ' aria-label="' + esc(p.name) + ' on Google Scholar" title="Google Scholar">' + icon("scholar") + "</a>" : "") +
+            (p.linkedin ? '<a class="person__in"' + ext(p.linkedin) + ' aria-label="' + esc(p.name) + ' on LinkedIn" title="LinkedIn">' + icon("linkedin") + "</a>" : "") +
+          "</div>" : "") +
           '</div><div class="person__role">' + esc(p.role) + "</div>" +
           (p.note ? '<p class="person__note" style="margin-top:6px">' + esc(p.note) + "</p>" : "") + "</div>" +
         study + pos +
