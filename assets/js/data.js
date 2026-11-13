@@ -326,7 +326,7 @@ window.MALTO = {
     { name: "İrem Şengör",     group: "trainee", role: "Trainee", challenges: [], study: "BSc Computer Engineering", photo: "" },
     { name: "Ayşenaz Organ",   group: "trainee", role: "Trainee", challenges: [], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/ay%C5%9Fenaz-organ-92b34b38b/", photo: "" },
 
-    { name: "Alkis Koudounas",  group: "alumni", exLeader: true, role: "Former Team Leader", position: "Sr. Research Engineer @ Sony", challenges: ["c01","c02","c03","c10","c11"], photo: "" },
+    { name: "Alkis Koudounas",  group: "alumni", role: "Alumnus", position: "Sr. Research Engineer @ Sony", challenges: ["c01","c02","c03","c10","c11"], photo: "" },
     { name: "Claudio Savelli",  group: "alumni", exLeader: true, role: "Former Team Leader", position: "PhD Student @ Politecnico di Torino", challenges: ["c01","c02","c03","c04","c06","c07","c08","c09"], linkedin: "https://www.linkedin.com/in/claudiosav/", scholar: "https://scholar.google.com/citations?user=vL1jtR8AAAAJ&hl=it", photo: "" },
     { name: "Mattia Sabato",    group: "alumni", exLeader: true, role: "Former Team Leader", position: "PhD Student @ Intesa Sanpaolo AI Research & Sapienza Università di Roma", challenges: ["c05"], linkedin: "https://www.linkedin.com/in/mattiasabato/", photo: "" },
     { name: "Andrea Grieco", group: "alumni", role: "Alumnus", position: "", challenges: ["c04"], photo: "" },
