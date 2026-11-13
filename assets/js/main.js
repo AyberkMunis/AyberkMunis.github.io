@@ -491,7 +491,7 @@
   function personCard(p, opts) {
     opts = opts || {};
     var photo = p.photo
-      ? '<img src="' + esc(p.photo) + '" alt="Portrait of ' + esc(p.name) + '" loading="lazy" width="400" height="440">'
+      ? '<img src="' + esc(p.photo) + '" alt="Portrait of ' + esc(p.name) + '" loading="lazy" width="400" height="440"' + (p.photoPos ? ' style="object-position:' + esc(p.photoPos) + '"' : "") + '>'
       : '<div class="person__initials" aria-hidden="true">' + initials(p.name) + "</div>";
     var badge = opts.badge ? '<div class="person__badge"><span class="tag ' + (opts.badgeCls || "tag--green") + '">' + esc(opts.badge) + "</span></div>" : "";
     var chips = (p.challenges || []).map(function (id) {
@@ -506,7 +506,7 @@
       ? '<div class="person__study">' + icon("grad") + "<span>" + esc(p.study) + "</span></div>"
       : "";
     return '<article class="person">' +
-      '<div class="person__photo">' + photo + badge + "</div>" +
+      '<div class="person__photo' + (p.photo ? " tint" : "") + '">' + photo + badge + "</div>" +
       '<div class="person__body">' +
         '<div><h3 class="person__name">' + esc(p.name) + '</h3><div class="person__role">' + esc(p.role) + "</div>" +
           (p.note ? '<p class="person__note" style="margin-top:6px">' + esc(p.note) + "</p>" : "") + "</div>" +
