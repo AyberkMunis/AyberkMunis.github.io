@@ -1065,3 +1065,4 @@ a.event--link:hover .tint::after { opacity: 0.7; }
 .person__in:hover, .person__in:focus-visible { color: var(--ink); background: var(--blue); border-color: var(--blue); }
 .person__links { display: flex; gap: 6px; flex: none; margin: -6px -6px 0 0; }
 .person__links .person__in { margin: 0; }
+.talk__text strong { color: var(--text); font-weight: 600; }

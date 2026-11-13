@@ -421,6 +421,15 @@ window.MALTO = {
       photos: ["assets/img/events/conf-evalita-2026/photo-1.jpg"]
     },
     {
+      type: "conference", id: "conf-acl-2025", page: "conference-acl-2025.html",
+      title: "ACL 2025", place: "Vienna, Austria",
+      date: "2025-07", dateLabel: "July 2025",
+      text: "MALTO presented two papers at **SemEval, held alongside ACL 2025 in Vienna, Austria**, sharing our research with the international NLP community. Our work explored a **Dual-Teacher framework for removing sensitive information from LLMs** while preserving model utility, and a **token-level hallucination detection method** combining uncertainty estimates with semantic checks from a larger language model, without relying on external knowledge sources.",
+      challenges: ["c04", "c03"],
+      cover: "assets/img/events/conf-acl-2025/cover.jpg",
+      photos: []
+    },
+    {
       type: "conference", id: "conf-ecml-pkdd-2024", page: "conference-ecml-pkdd-2024.html",
       title: "ECML PKDD 2024", place: "Vilnius, Lithuania",
       date: "2024-09", dateLabel: "September 2024",

@@ -640,6 +640,11 @@
     renderChallenges.flash = flash;
   }
 
+  // Escaped text with **bold** support (used for event paragraphs)
+  function richText(t) {
+    return esc(t).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  }
+
   function partnerTag(e) {
     return e.partner ? '<span class="tag tag--blue">In collaboration with ' + esc(e.partner) + "</span>" : "";
   }
@@ -722,7 +727,7 @@
       '<section class="section section--tight"><div class="container talk' + (media ? "" : " talk--solo") + '">' +
         '<div class="talk__body reveal">' +
           (e.speaker ? '<div class="talk__guest"><span class="k">' + (S.guest || "Guest") + "</span><b>" + esc(e.speaker) + "</b></div>" : "") +
-          '<p class="talk__text">' + esc(e.text) + "</p>" +
+          '<p class="talk__text">' + richText(e.text) + "</p>" +
           relatedChallenges(e) +
         "</div>" +
         media +
