@@ -302,6 +302,8 @@ window.MALTO = {
     { name: "Evren Ayberk Munis",  group: "leader",  role: "Team Leader",         challenges: ["c04","c05","c06","c07"], study: "MSc Data Science and Engineering", photo: "assets/img/members/evren-ayberk-munis.jpg" },
     { name: "Flavio Giobergia",    group: "advisor", role: "Academic Advisor",    challenges: ["c01","c02","c03","c04","c06","c07","c08","c09","c13"], photo: "",
       note: "Assistant Professor · DAUIN, Politecnico di Torino" },
+    { name: "Ahmet Berk Calisir",     group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", photo: "" },
+    { name: "Amir Ranjbar",           group: "member", role: "Challenger", challenges: [], study: "MSc Artificial Intelligence and Data Analytics", photo: "" },
     { name: "Andrea Lolli",           group: "member", role: "Challenger", challenges: ["c05"], study: "MSc Data Science and Engineering", photo: "" },
     { name: "Ayhan Meherrem",         group: "member", role: "Challenger", challenges: ["c07"], study: "BSc Computer Engineering", photo: "" },
     { name: "Emir Faruk Erman",       group: "member", role: "Challenger", challenges: ["c08"], study: "MSc AI & Data Analytics Computer Engineering", photo: "" },
