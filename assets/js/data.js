@@ -331,7 +331,7 @@ window.MALTO = {
     { name: "Mattia Sabato",    group: "alumni", exLeader: true, role: "Former Team Leader", position: "PhD Student @ Intesa Sanpaolo AI Research & Sapienza Università di Roma", challenges: ["c05"], linkedin: "https://www.linkedin.com/in/mattiasabato/", photo: "" },
     { name: "Andrea Grieco", group: "alumni", role: "Alumnus", position: "", challenges: ["c04"], photo: "" },
     { name: "Andrea Panuccio", group: "alumni", role: "Alumnus", position: "", challenges: ["c02"], photo: "" },
-    { name: "Erfan Bayat",      group: "alumni", role: "Alumnus", position: "", challenges: ["c04","c05"], linkedin: "https://www.linkedin.com/in/erfan-bayat13/", photo: "" },
+    { name: "Erfan Bayat",      group: "alumni", role: "Alumnus", position: "", challenges: ["c04","c05"], linkedin: "https://www.linkedin.com/in/erfan-bayat13/", photo: "assets/img/members/erfan-bayat.jpg", photoPos: "48% 30%" },
     { name: "Federico Borra",   group: "alumni", role: "Alumnus", position: "PhD Student in Systems Medicine / Computational Biology @ IFOM / SEMM", challenges: ["c01"], linkedin: "https://www.linkedin.com/in/federico-borra-25a48a223/", scholar: "https://scholar.google.com/citations?user=vBl1EXgAAAAJ&hl=en", photo: "" },
     { name: "Florentin Udrea",  group: "alumni", role: "Alumnus", position: "Reinforcement Learning Engineer @ MOTOR AI", challenges: ["c02"], photo: "" },
     { name: "Giacomo Rosso",    group: "alumni", role: "Alumnus", position: "Generative AI Engineer @ JAKALA", challenges: ["c01","c02"], linkedin: "https://www.linkedin.com/in/giacomo-rosso-735b402ab/", photo: "" },
