@@ -508,7 +508,9 @@
     return '<article class="person">' +
       '<div class="person__photo' + (p.photo ? " tint" : "") + '">' + photo + badge + "</div>" +
       '<div class="person__body">' +
-        '<div><h3 class="person__name">' + esc(p.name) + '</h3><div class="person__role">' + esc(p.role) + "</div>" +
+        '<div><div class="person__head"><h3 class="person__name">' + esc(p.name) + "</h3>" +
+          (p.linkedin ? '<a class="person__in"' + ext(p.linkedin) + ' aria-label="' + esc(p.name) + ' on LinkedIn">' + icon("linkedin") + "</a>" : "") +
+          '</div><div class="person__role">' + esc(p.role) + "</div>" +
           (p.note ? '<p class="person__note" style="margin-top:6px">' + esc(p.note) + "</p>" : "") + "</div>" +
         study + pos +
         (chips ? '<div><div class="person__ch-label">Challenges · ' + p.challenges.length + '</div><div class="chips" style="margin-top:8px">' + chips + "</div></div>" : "") +
