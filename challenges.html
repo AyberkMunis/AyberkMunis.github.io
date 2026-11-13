@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MALTO</title>
+  <meta name="description" content="Every international ML and AI challenge MALTO has competed in: the task, our solution, results, papers and authors.">
+  <meta name="theme-color" content="#07020D">
+  <meta property="og:title" content="Challenges &amp; Publications — MALTO">
+  <meta property="og:image" content="assets/img/og-image.png">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="challenges">
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow reveal">Challenges &amp; publications</span>
+      <h1 class="reveal" style="--d:60ms">Challenges</h1>
+      <p class="lead reveal" style="--d:120ms">Big challenges, countless experiments and a little too much coffee. Explore the problems we tackled, the solutions we built, the results we earned and the papers we published.</p>
+      
+      <div class="filters reveal" style="--d:180ms;margin:12px 0 0" role="group" aria-label="Filter challenges">
+        <button class="filter" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" data-filter="podium" aria-pressed="false">Podium</button>
+        <button class="filter" data-filter="paper" aria-pressed="false">With paper</button>
+        <button class="filter" data-filter="2026" aria-pressed="false">2026</button>
+        <button class="filter" data-filter="2025" aria-pressed="false">2025</button>
+        <button class="filter" data-filter="2024" aria-pressed="false">2024</button>
+        <button class="filter" data-filter="2022" aria-pressed="false">2022</button>
+        <button class="filter" data-filter="2021" aria-pressed="false">2021</button>
+      </div>
+      <p id="filter-status" class="sr-only" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="section section--tight" aria-labelledby="proc-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">How a challenge works</span>
+        <h2 id="proc-title" class="h-lg" style="margin-top:20px">From problem to paper</h2>
+      </div>
+      <ol class="roadmap">
+        <li class="reveal"><span class="m">01 · Select</span><span class="t">Pick the challenge</span><span class="d">We choose research-grade competitions and form subgroups of 4–6 by interest and background.</span></li>
+        <li class="reveal" style="--d:60ms"><span class="m">02 · Study</span><span class="t">Literature &amp; baselines</span><span class="d">Understand the task, analyse the data and reproduce suitable baseline methods.</span></li>
+        <li class="reveal" style="--d:120ms"><span class="m">03 · Build</span><span class="t">Experiment &amp; iterate</span><span class="d">Preprocessing, model selection, training and tuning on our cluster, Heron, and cloud GPUs.</span></li>
+        <li class="reveal" style="--d:180ms"><span class="m">04 · Publish</span><span class="t">Submit, write, present</span><span class="d">Submit the strongest system, write the paper and present it at the conference.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--line">
+    <div class="container">
+      <div class="challenge-list" id="challenge-list"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
