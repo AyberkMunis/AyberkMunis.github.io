@@ -313,7 +313,7 @@ window.MALTO = {
     { name: "Kutay Zilcioğlu",        group: "member", role: "Challenger", challenges: ["c08"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/kutay-zilcio%C4%9Flu-0a0b37227/", photo: "" },
     { name: "Luca M. Rodia",          group: "member", role: "Challenger", challenges: ["c06"], study: "BSc Mathematical Engineering", linkedin: "https://www.linkedin.com/in/luca-rodia-900a34214/", photo: "" },
     { name: "Matin Salami",           group: "member", role: "Challenger", challenges: ["c06"], study: "MSc Data Science and Engineering", scholar: "https://scholar.google.com/citations?user=-AfxQdoAAAAJ&hl=en", photo: "" },
-    { name: "Mert Akgün",             group: "member", role: "Challenger", challenges: ["c07"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/akgunmert/", photo: "" },
+    { name: "Mert Akgün",             group: "member", role: "Challenger", challenges: ["c07"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/akgunmert/", photo: "assets/img/members/mert-akgun.jpg" },
     { name: "Murat Beşli",            group: "member", role: "Challenger", challenges: ["c07","c08"], study: "BSc Electronic and Communication Engineering", linkedin: "https://www.linkedin.com/in/murat-be%C5%9Fli-344456322/", photo: "" },
     { name: "Göksun Gökçe",           group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/goksungokce/", photo: "assets/img/members/goksun-gokce.jpg", photoPos: "50% 20%" },
     { name: "Taha Atabay Cetin",      group: "member", role: "Challenger", challenges: ["c08"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/taha-atabay-cetin/", photo: "assets/img/members/taha-atabay-cetin.jpg" },
@@ -335,6 +335,7 @@ window.MALTO = {
     { name: "Federico Borra",   group: "alumni", role: "Alumnus", position: "PhD Student in Systems Medicine / Computational Biology @ IFOM / SEMM", challenges: ["c01"], linkedin: "https://www.linkedin.com/in/federico-borra-25a48a223/", scholar: "https://scholar.google.com/citations?user=vBl1EXgAAAAJ&hl=en", photo: "" },
     { name: "Florentin Udrea",  group: "alumni", role: "Alumnus", position: "Reinforcement Learning Engineer @ MOTOR AI", challenges: ["c02"], photo: "" },
     { name: "Giacomo Rosso",    group: "alumni", role: "Alumnus", position: "Generative AI Engineer @ JAKALA", challenges: ["c01","c02"], linkedin: "https://www.linkedin.com/in/giacomo-rosso-735b402ab/", photo: "" },
+    { name: "Giulia Monchietto", group: "alumni", role: "Alumna",  position: "PhD at INSERM", challenges: [], linkedin: "https://www.linkedin.com/in/giulia-monchietto-593608223/", photo: "" },
     { name: "Lorenzo Vaiani",   group: "alumni", role: "Alumnus", position: "Postdoc @ Politecnico di Torino", challenges: ["c10","c11","c12","c14"], photo: "" },
     { name: "Roberta Raineri",  group: "alumni", role: "Alumna",  position: "R&D Control System Engineer @ Modeway", challenges: ["c02"], scholar: "https://scholar.google.com/citations?user=0WmmC8YAAAAJ&hl=it", photo: "" },
 
