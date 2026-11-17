@@ -306,18 +306,20 @@ window.MALTO = {
     { name: "Amir Ranjbar",           group: "member", role: "Challenger", challenges: [], study: "MSc Artificial Intelligence and Data Analytics", linkedin: "https://www.linkedin.com/in/aexomir/", photo: "assets/img/members/amir-ranjbar.jpg", photoPos: "50% 30%" },
     { name: "Andrea Lolli",           group: "member", role: "Challenger", challenges: ["c05"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/andrea-lolli-2912aq/", scholar: "https://scholar.google.com/citations?user=po1OpU0AAAAJ&hl=it", photo: "assets/img/members/andrea-lolli.jpg" },
     { name: "Ayhan Meherrem",         group: "member", role: "Challenger", challenges: ["c07"], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/ayhan-meherrem/", scholar: "https://scholar.google.com/citations?user=0Zxe3ccAAAAJ&hl=en", photo: "" },
+    { name: "Azamat Shmitov",         group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/azamat-shmitov-6813a5224/", photo: "" },
     { name: "Başar Eroğlu",           group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/mehmet-basar-eroglu-617b50256/", photo: "assets/img/members/basar-eroglu.jpg" },
-    { name: "Emir Faruk Erman",       group: "member", role: "Challenger", challenges: ["c08"], study: "MSc AI & Data Analytics Computer Engineering", linkedin: "https://www.linkedin.com/in/emirfarukerman/", photo: "" },
+    { name: "Emir Faruk Erman",       group: "member", role: "Challenger", challenges: ["c08"], study: "MSc AI & Data Analytics Computer Engineering", linkedin: "https://www.linkedin.com/in/emirfarukerman/", photo: "assets/img/members/emir-faruk-erman.jpg" },
     { name: "Gianbattista Busonera",  group: "member", role: "Challenger", challenges: ["c09"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/gianbattista-busonera/", photo: "assets/img/members/gianbattista-busonera.jpg" },
-    { name: "Hüseyin Arda Arslan",    group: "member", role: "Challenger", challenges: ["c07","c08"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/h%C3%BCseyin-arda-arslan-611530255/", photo: "" },
+    { name: "Hüseyin Arda Arslan",    group: "member", role: "Challenger", challenges: ["c07","c08"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/h%C3%BCseyin-arda-arslan-611530255/", photo: "assets/img/members/huseyin-arda-arslan.jpg" },
     { name: "Kerem Alp Yıldız",       group: "member", role: "Challenger", challenges: [], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/kerem-alp-y%C4%B1ld%C4%B1z-bb525233b/", photo: "assets/img/members/kerem-alp-yildiz.jpg" },
-    { name: "Kuzey Kaçar",            group: "member", role: "Challenger", challenges: [], study: "BSc Computer Engineering", photo: "assets/img/members/kuzey-kacar.jpg", photoPos: "50% 12%" },
+    { name: "Kuzey Kaçar",            group: "member", role: "Challenger", challenges: [], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/kuzey-kacar-3a377642a/", photo: "assets/img/members/kuzey-kacar.jpg", photoPos: "50% 12%" },
     { name: "Kutay Zilcioğlu",        group: "member", role: "Challenger", challenges: ["c08"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/kutay-zilcio%C4%9Flu-0a0b37227/", photo: "" },
     { name: "Luca M. Rodia",          group: "member", role: "Challenger", challenges: ["c06"], study: "BSc Mathematical Engineering", linkedin: "https://www.linkedin.com/in/luca-rodia-900a34214/", photo: "" },
-    { name: "Matin Salami",           group: "member", role: "Challenger", challenges: ["c06"], study: "MSc Data Science and Engineering", scholar: "https://scholar.google.com/citations?user=-AfxQdoAAAAJ&hl=en", photo: "" },
+    { name: "Matin Salami",           group: "member", role: "Challenger", challenges: ["c06"], study: "MSc Data Science and Engineering", scholar: "https://scholar.google.com/citations?user=-AfxQdoAAAAJ&hl=en", photo: "assets/img/members/matin-salami.jpg" },
     { name: "Mert Akgün",             group: "member", role: "Challenger", challenges: ["c07"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/akgunmert/", photo: "assets/img/members/mert-akgun.jpg" },
-    { name: "Murat Beşli",            group: "member", role: "Challenger", challenges: ["c07","c08"], study: "BSc Electronic and Communication Engineering", linkedin: "https://www.linkedin.com/in/murat-be%C5%9Fli-344456322/", photo: "" },
+    { name: "Murat Beşli",            group: "member", role: "Challenger", challenges: ["c07","c08"], study: "BSc Electronic and Communication Engineering", linkedin: "https://www.linkedin.com/in/murat-be%C5%9Fli-344456322/", photo: "assets/img/members/murat-besli.jpg" },
     { name: "Göksun Gökçe",           group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/goksungokce/", photo: "assets/img/members/goksun-gokce.jpg", photoPos: "50% 20%" },
+    { name: "Sajjad Shahali",         group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/sajjad-shahali/", photo: "" },
     { name: "Simone Paoletti",        group: "member", role: "Challenger", challenges: [], study: "MSc Data Science and Engineering", photo: "" },
     { name: "Taha Atabay Cetin",      group: "member", role: "Challenger", challenges: ["c08"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/taha-atabay-cetin/", photo: "assets/img/members/taha-atabay-cetin.jpg" },
     { name: "Timofei Khudonogov",     group: "member", role: "Challenger", challenges: ["c07"], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/timmfy/", photo: "" },
@@ -325,9 +327,11 @@ window.MALTO = {
 
     /* Trainees — preparing to join future challenges */
     { name: "Beliz Bektaşlı",  group: "trainee", role: "Trainee", challenges: [], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/beliz-bekta%C5%9Fl%C4%B1-139156393/", photo: "" },
-    { name: "Nehir Koyuncu",   group: "trainee", role: "Trainee", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/nehirkoyuncu/", photo: "" },
+    { name: "Nehir Koyuncu",   group: "trainee", role: "Trainee", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/nehirkoyuncu/", photo: "assets/img/members/nehir-koyuncu.jpg" },
     { name: "İrem Şengör",     group: "trainee", role: "Trainee", challenges: [], study: "BSc Computer Engineering", photo: "" },
     { name: "Ayşenaz Organ",   group: "trainee", role: "Trainee", challenges: [], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/ay%C5%9Fenaz-organ-92b34b38b/", photo: "" },
+    { name: "Elio Egidio",     group: "trainee", role: "Trainee", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/elioegidio/", photo: "" },
+    { name: "Gabriele Adorni",  group: "trainee", role: "Trainee", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/gabriele-adorni-a5330035b/", photo: "assets/img/members/gabriele-adorni.jpg" },
 
     { name: "Alkis Koudounas",  group: "alumni", role: "Alumnus", position: "Sr. Research Engineer @ Sony", challenges: ["c01","c02","c03","c10","c11"], photo: "" },
     { name: "Claudio Savelli",  group: "alumni", exLeader: true, role: "Former Team Leader", position: "PhD Student @ Politecnico di Torino", challenges: ["c01","c02","c03","c04","c06","c07","c08","c09"], linkedin: "https://www.linkedin.com/in/claudiosav/", scholar: "https://scholar.google.com/citations?user=vL1jtR8AAAAJ&hl=it", photo: "" },
@@ -345,7 +349,7 @@ window.MALTO = {
     { name: "İpek Dingil",     group: "social", role: "Social Media & Communication Lead", challenges: [], study: "MArch Sustainability Architecture", linkedin: "https://www.linkedin.com/in/ipek-dingil-659125241/", photo: "" },
     { name: "Beliz Bektaşlı",  group: "social", role: "Social Media & Communication", challenges: [], study: "BSc Computer Engineering", linkedin: "https://www.linkedin.com/in/beliz-bekta%C5%9Fl%C4%B1-139156393/", photo: "" },
     { name: "Göksun Gökçe",    group: "social", role: "Social Media & Communication", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/goksungokce/", photo: "assets/img/members/goksun-gokce.jpg", photoPos: "50% 20%" },
-    { name: "Nehir Koyuncu",   group: "social", role: "Social Media & Communication", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/nehirkoyuncu/", photo: "" }
+    { name: "Nehir Koyuncu",   group: "social", role: "Social Media & Communication", challenges: [], study: "MSc Data Science and Engineering", linkedin: "https://www.linkedin.com/in/nehirkoyuncu/", photo: "assets/img/members/nehir-koyuncu.jpg" }
   ],
 
   /* ---------------- Events ----------------
